@@ -8,6 +8,7 @@ function findActor(client, actor, callback) {
         callback(err)
         return
       }
+      console.log(result);
       callback(null, result.rows)
     }
   );
